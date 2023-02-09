@@ -7,3 +7,12 @@ Take input for array
 for (int i = 0; i < 5; i++) {
 cin >> age[i];
 }
+
+C-strings are arrays of type char terminated with a null character, that is, \0 (ASCII value of null character is 0).
+
+If we want to take a string of n characters as input, then we need to declare a char array of size n + 1(+1 for the null character)
+
+We can take input the string easily
+=>
+chat a[100];
+cin >> a;
