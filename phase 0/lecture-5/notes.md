@@ -14,5 +14,11 @@ If we want to take a string of n characters as input, then we need to declare a 
 
 We can take input the string easily
 =>
-chat a[100];
+char a[100];
 cin >> a;
+
+Error prompt
+int n; cin >> n;
+int a[n], max = a[1];
+
+long long a[10];
